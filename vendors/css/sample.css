@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
+
 }
 /* from here */
 .header {
@@ -31,7 +32,10 @@ header li {
 header ul:after {
 }
 /* Up to here is the implementation of the header part */
+
 .main-header img {
+  padding-top: 130px;
+  height: 150px;
 /* Implementation of main image (white “Achieve” text image) */
 }
 .about {
@@ -41,19 +45,20 @@ header ul:after {
 .function {
   height: auto;
   width: auto;
-  background-color: grey;
+  background-color: #d4d4d4;
   text-align: center;
+
 }
 .function-images {
   height: auto;
   width: auto;
-  background-color: grey;
   display: inline-flex;
+  padding: 20px 10px 60px 10px;
 }
 .function-image {
   text-align: center;
   margin: 25px;
-  width: 100%
+
 
 
 }
