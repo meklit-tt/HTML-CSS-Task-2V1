@@ -1,0 +1,86 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+.header {
+  height: 70px;
+  width: auto;
+  background-color: rgb(50,50,51);
+  padding-top: 10px;
+  font-size: 1rem;
+}
+header ul {
+}
+header ul a {
+  color: white;
+}
+header li {
+  margin-left: 2.5em;
+}
+header ul:after {
+}
+/* Up to here is the implementation of the header part */
+.main-header img {
+/* Implementation of main image (white “Achieve” text image) */
+}
+.about {
+/* About Achieve部分の実装 */
+}
+/* from here */
+.function {
+  height: auto;
+  width: auto;
+  background-color: grey;
+  text-align: center;
+}
+.function-images {
+  height: auto;
+  width: auto;
+  background-color: grey;
+  display: inline-flex;
+}
+.function-image {
+  text-align: center;
+  margin: 25px;
+  width: 100%
+
+
+}
+/* Up to here is the implementation of the function part */
+footer {
+
+  color: #fff;
+  background-color: #273746;
+  text-align: center;
+  vertical-align: middle;
+  height: 85px;
+  width: 100%;
+  font-size: 0.75rem;
+  display: inline-grid;
+
+}
+
+
+.left{
+  float: left;
+  display: inline-block;
+
+
+  }
+
+.right{
+  float: right;
+  display: inline-block;
+  }
+  /* The description of css written here is a template prepared only as a hint, so if you want to implement it without following the written description, you can implement it as you like. Any implementation will pass if it is determined that the task requirements are met and the code quality is at a certain level. */
